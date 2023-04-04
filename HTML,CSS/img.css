@@ -1,0 +1,120 @@
+body{
+    display: flexbox;
+    background-color: white;
+    width:70%;
+    
+  }
+  .i{
+    display: flex;
+    max-width:99%;
+    max-height: 100%;
+    z-index: 1;
+    position: relative;
+    left:20%;
+  }
+  h1{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkgray;
+    position: relative;
+    left:20%;
+  }
+  .i1{
+    display: flex;
+    width:25%;
+    height:58%;
+    z-index: 2;
+    position:absolute;
+    left:66%;
+    top:68%;
+  }
+  .p0{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width:25%;
+    height:65%;
+    z-index: 2;
+    position:absolute;
+    left:66%;
+    bottom:-95%;
+  }
+  .p2{
+    display: flex;
+    width:25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position:absolute;
+    left:60%;
+    bottom:-59%;
+  }
+  .z3{
+    display: flex;
+    width: 42%;
+    height:58%;
+    background-color: white;
+    border: 5px solid rgb(153, 38, 38);
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position:absolute;
+    left:17%;
+    top:87%;
+    padding:2%;
+  }
+  h2{
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 42px;
+    width:100%;
+    justify-content: center;
+    position:absolute;
+    top:12%;
+    left:2px;
+  }
+  .p1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    text-align:unset;
+    width:90%;
+    justify-content: center;
+    z-index: 3;
+    position:absolute;
+    left:2%;
+   top:28%;
+    padding:2%; 
+  }
+  button{
+    display: flex;
+    background-color: black;
+    color:white;
+    width:30%;
+    height:10%;
+    position: absolute;
+    top:70%;
+    left:34%;
+    padding-left:40px;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  h3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width:100%;
+    justify-content: center;
+  }
+  .p3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:31%;
+    z-index: 3;
+    position:absolute;
+    left:27%;
+   bottom:-85%;
+    padding:2%; 
+  }
